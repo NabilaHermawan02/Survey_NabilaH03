@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<link rel="stylesheet" href="src/styles.css">
+<html>
+	<h1 id="title">BTS Survey</h1>
+
+	<p id="description">Hey, first i want say Thanks to you guys, who want to take the time to do this survey. </p>
+	
+	<div id="body">
+	
+	<form id="survey-form">
+		
+		<label id="name-label" for="name">
+		<p>Name:</p>
+		</label>
+		<input id="name" type="text" placeholder="Enter Your Name Here" required>
+		 <label id="email-label" for="email">
+		<p>Email:</p>
+		</label>
+		<input id="email" type="email" placeholder="Enter Your Email" required>
+		
+		 <label id="number-label" for="number">
+		<p>Age:</p>
+		</label>
+		<input id="number" type="number" placeholder="Choose Your Age" min="15" max="43" required>
+		
+		<p>Pilihlah diantara beberapa lagu berikut yang menurutmu menarik:</p>
+		<select id="dropdown">
+			
+			<option value="default">Nothing</option>
+			<option value="Spring Day">Spring Day</option>
+			<option value="Black Swan">Black Swan</option>
+			<option value="DNA">DNA</option>
+			<option value="Blood Sweet and Tears">Blood Sweet and Tears</option>
+			<option value="Life goes On">Life goes On</option>
+			
+		</select>
+		
+		<p>Pilihlah Album mana yang menurutmu menarik diantara beberapa pilihan berikut :</p>
+		
+		<input type="radio" name="song" value="1">Map of the Soul : Persona</input>
+		<br>
+		<input type="radio" name="movie" value="2">Love yourself</input>
+		<br>
+	 <input type="radio" name="movies" value="3">You Never Walk Alone</input>
+	<br>
+	 <input type="radio" name="movies" value="4">The Most Beautifull Moment in life</input>
+	<br>
+	 <input type="radio" name="movies" value="5">Dark and Wild</input>
+	<br>
+	 <input type="radio" name="movies" value="6">Skul luv Affair</input>
+	<br>
+	 <input type="radio" name="movies" value="7">BE</input>
+	<br>
+	<br>
+	
+	<textarea id="comment" rows="4" cols="40">Add Your Comment Here</textarea>
+	<br>
+	<input id="submit" type="submit" value="Submit">
+							
+	</form>
+	
+	</div>
+</html>
